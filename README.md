@@ -65,7 +65,7 @@ product-catalog/
 
 ✅ **Pagination**
 - Smart pagination controls
-- 2 items per page
+- 8 items per page
 - Previous/Next navigation
 - Page number selection
 

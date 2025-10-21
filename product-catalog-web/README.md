@@ -94,7 +94,7 @@ npm run eject
 3. **Filter by Category**: Use the category dropdown to filter products
 4. **Sort by Price**: Select ascending or descending to sort by price
 5. **Mark Favorites**: Click the heart icon on any product to add/remove from favorites
-6. **Navigate Pages**: Use pagination controls to browse through products (2 per page)
+6. **Navigate Pages**: Use pagination controls to browse through products (8 per page)
 
 ## 🔌 API Integration
 
@@ -155,7 +155,7 @@ The app is fully responsive and works on:
 
 ## 🚀 Performance Optimizations
 
-1. **Pagination**: Only renders 2 products per page
+1. **Pagination**: Only renders 8 products per page
 2. **Efficient Filtering**: Optimized filter algorithm
 3. **Memoization**: Components don't re-render unless props change
 4. **Lazy Loading**: Products loaded on demand

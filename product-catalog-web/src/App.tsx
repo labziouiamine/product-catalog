@@ -11,7 +11,7 @@ function App() {
   const [sortOrder, setSortOrder] = useState<string>('none');
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [itemsPerPage] = useState<number>(2);
+  const [itemsPerPage] = useState<number>(8);
 
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')

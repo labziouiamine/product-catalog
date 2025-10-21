@@ -25,7 +25,7 @@ import {
   removeFavorite,
 } from './src/utils/storageUtils';
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = 8;
 
 export default function App() {
   const [products, setProducts] = useState<Product[]>([]);

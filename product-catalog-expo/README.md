@@ -154,7 +154,7 @@ The app fetches products from the **FakeStore API**:
 
 ## Performance Optimizations
 
-1. **Pagination**: Only renders visible products (5 per page)
+1. **Pagination**: Only renders visible products (8 per page)
 2. **useCallback**: Prevents unnecessary function recreations
 3. **Memoization**: Components don't re-render unless props change
 4. **Efficient Filtering**: Filters applied in optimal order
